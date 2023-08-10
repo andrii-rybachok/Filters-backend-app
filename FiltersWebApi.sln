@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiltersWebApi", "FiltersWebApi\FiltersWebApi.csproj", "{CEC69CE3-D4C5-489C-9104-979FF277F820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiltersWebApi", "FiltersWebApi\FiltersWebApi.csproj", "{CEC69CE3-D4C5-489C-9104-979FF277F820}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2FD96B42-01AB-4207-8A6A-E45C72F6CD46} = {2FD96B42-01AB-4207-8A6A-E45C72F6CD46}
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\Filters\Data\Data.csproj", "{64F6C335-0740-4FE2-8DF1-DEB8A2F58A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{2FD96B42-01AB-4207-8A6A-E45C72F6CD46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +20,10 @@ Global
 		{CEC69CE3-D4C5-489C-9104-979FF277F820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEC69CE3-D4C5-489C-9104-979FF277F820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEC69CE3-D4C5-489C-9104-979FF277F820}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64F6C335-0740-4FE2-8DF1-DEB8A2F58A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64F6C335-0740-4FE2-8DF1-DEB8A2F58A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64F6C335-0740-4FE2-8DF1-DEB8A2F58A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64F6C335-0740-4FE2-8DF1-DEB8A2F58A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD96B42-01AB-4207-8A6A-E45C72F6CD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD96B42-01AB-4207-8A6A-E45C72F6CD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD96B42-01AB-4207-8A6A-E45C72F6CD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD96B42-01AB-4207-8A6A-E45C72F6CD46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
