@@ -3879,8 +3879,8 @@
     },
     "Data/1.0.0": {
       "type": "project",
-      "path": "../../Filters/Data/Data.csproj",
-      "msbuildProject": "../../Filters/Data/Data.csproj"
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3924,8 +3924,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\work\\Filters\\Data\\Data.csproj": {
-              "projectPath": "D:\\work\\Filters\\Data\\Data.csproj"
+            "D:\\work\\FiltersWebApi\\Data\\Data.csproj": {
+              "projectPath": "D:\\work\\FiltersWebApi\\Data\\Data.csproj"
             }
           }
         }
